@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject private var user: UserManager
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Group {
+            if user.isRegistered {
+                InfoUserView()
+            } else {
+                LoginTextFieldView()
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(UserManager())
     }
 }

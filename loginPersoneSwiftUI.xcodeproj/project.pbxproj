@@ -14,6 +14,10 @@
 		761AC2D628281240008CBF5D /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AC2D528281240008CBF5D /* LoginTextFieldView.swift */; };
 		761AC2D828281449008CBF5D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AC2D728281449008CBF5D /* UserManager.swift */; };
 		761AC2DA2828886C008CBF5D /* InfoUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AC2D92828886C008CBF5D /* InfoUserView.swift */; };
+		769C53B4282B8CC40044A792 /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769C53B3282B8CC40044A792 /* LogOutButtonView.swift */; };
+		769C53B6282B90F50044A792 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769C53B5282B90F50044A792 /* DataManager.swift */; };
+		769C53B8282B968B0044A792 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769C53B7282B968B0044A792 /* TimeCounter.swift */; };
+		769D2EB4282B85480049C7D0 /* ButtonCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D2EB3282B85480049C7D0 /* ButtonCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		761AC2D528281240008CBF5D /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
 		761AC2D728281449008CBF5D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		761AC2D92828886C008CBF5D /* InfoUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUserView.swift; sourceTree = "<group>"; };
+		769C53B3282B8CC40044A792 /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
+		769C53B5282B90F50044A792 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		769C53B7282B968B0044A792 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		769D2EB3282B85480049C7D0 /* ButtonCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				761AC2D528281240008CBF5D /* LoginTextFieldView.swift */,
 				761AC2D728281449008CBF5D /* UserManager.swift */,
 				761AC2D92828886C008CBF5D /* InfoUserView.swift */,
+				769C53B3282B8CC40044A792 /* LogOutButtonView.swift */,
+				769C53B7282B968B0044A792 /* TimeCounter.swift */,
+				769D2EB3282B85480049C7D0 /* ButtonCountView.swift */,
+				769C53B5282B90F50044A792 /* DataManager.swift */,
 				761AC2CB282811F0008CBF5D /* Assets.xcassets */,
 				761AC2CD282811F0008CBF5D /* Preview Content */,
 			);
@@ -147,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				761AC2D628281240008CBF5D /* LoginTextFieldView.swift in Sources */,
+				769C53B6282B90F50044A792 /* DataManager.swift in Sources */,
 				761AC2DA2828886C008CBF5D /* InfoUserView.swift in Sources */,
+				769C53B4282B8CC40044A792 /* LogOutButtonView.swift in Sources */,
+				769D2EB4282B85480049C7D0 /* ButtonCountView.swift in Sources */,
 				761AC2CA282811EF008CBF5D /* ContentView.swift in Sources */,
+				769C53B8282B968B0044A792 /* TimeCounter.swift in Sources */,
 				761AC2D828281449008CBF5D /* UserManager.swift in Sources */,
 				761AC2C8282811EF008CBF5D /* loginPersoneSwiftUIApp.swift in Sources */,
 			);

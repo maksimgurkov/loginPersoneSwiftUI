@@ -13,7 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         Group {
-            if user.isRegistered {
+            if user.user.flag{
                 InfoUserView()
             } else {
                 LoginTextFieldView()

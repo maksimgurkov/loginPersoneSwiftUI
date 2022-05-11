@@ -9,7 +9,17 @@ import Combine
 
 class UserManager: ObservableObject {
     
-    @Published var isRegistered = false
-    var name = ""
+    @Published var user = User()
+    
+    init() {}
+    
+    init(user: User) {
+        self.user = user
+    }
 
+}
+
+struct User: Codable {
+    var name = ""
+    var flag = false
 }

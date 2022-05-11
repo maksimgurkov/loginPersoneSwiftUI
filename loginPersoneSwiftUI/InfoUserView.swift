@@ -8,12 +8,24 @@
 import SwiftUI
 
 struct InfoUserView: View {
-    
-    @EnvironmentObject private var userName: UserManager
+    @StateObject private var timer = TimeCounter()
+    @EnvironmentObject private var userManager: UserManager
     
     var body: some View {
         VStack {
-            Text(userName.name)
+            Text("\(timer.counter)")
+                .font(.largeTitle)
+                .padding(.top, 50)
+            Text("Привет \(userManager.user.name)")
+                .padding(.top, 20)
+            ButtonCountView(title: timer.buttonTitle, color: .red) {
+                timer.starTimer()
+            }
+            Spacer()
+            ButtonCountView(title: "Выход", color: .blue, action: {
+                DataManager.shared.clear(userManager: userManager)
+            })
+                .padding(.bottom, 50)
         }
     }
 }
